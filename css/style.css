@@ -11,6 +11,19 @@ body {
     background-color: hsl(0, 0%, 100%);
 }
 
+/* utili */
+.padding {
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
 /* picture */
 
 img {
