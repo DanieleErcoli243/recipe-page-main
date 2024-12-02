@@ -17,6 +17,10 @@ h2 {
 
 /* utili */
 
+.font-title {
+    font-family: "Young Serif", serif;
+}
+
 .color {
     color: hsl(332, 51%, 32%);
 
@@ -54,6 +58,7 @@ img {
     background-color: hsl(332, 51%, 98%);
     border-radius: 20px;
     padding: 20px;
+    font-family: "Outfit", sans serif;
 }
 
 /* liste */
@@ -62,6 +67,7 @@ ul,
 ol {
     list-style-position: inside;
     list-style-type: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans serif;
 }
 
 /* line */
