@@ -6,7 +6,21 @@
     text-align: center;
 }
 
-
+/* generici */
 body {
     background-color: hsl(0, 0%, 100%);
+}
+
+/* picture */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* container */
+
+.container {
+    max-width: 360px;
+    margin: 0 auto;
 }
