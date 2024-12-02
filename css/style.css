@@ -15,6 +15,11 @@ h2 {
     color: hsl(332, 51%, 32%);
 }
 
+p,
+span {
+    color: hsl(30, 18%, 34%);
+}
+
 /* utili */
 
 .font-title {
@@ -66,7 +71,6 @@ img {
 ul,
 ol {
     list-style-position: inside;
-    list-style-type: hsl(332, 51%, 32%);
     font-family: "Outfit", sans serif;
 }
 
