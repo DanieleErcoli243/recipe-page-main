@@ -38,6 +38,14 @@ img {
     margin: 0 auto;
 }
 
+/* preparazione */
+
+.preparation {
+    background-color: hsl(332, 51%, 98%);
+    border-radius: 20px;
+    padding: 20px;
+}
+
 /* liste */
 
 ul,
