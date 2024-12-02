@@ -11,7 +11,17 @@ body {
     background-color: hsl(0, 0%, 100%);
 }
 
+h2 {
+    color: hsl(332, 51%, 32%);
+}
+
 /* utili */
+
+.color {
+    color: hsl(332, 51%, 32%);
+
+}
+
 .padding {
     padding: 20px;
 }
@@ -51,6 +61,7 @@ img {
 ul,
 ol {
     list-style-position: inside;
+    list-style-type: hsl(332, 51%, 32%);
 }
 
 /* line */
