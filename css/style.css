@@ -37,3 +37,10 @@ img {
     max-width: 360px;
     margin: 0 auto;
 }
+
+/* liste */
+
+ul,
+ol {
+    list-style-position: inside;
+}
