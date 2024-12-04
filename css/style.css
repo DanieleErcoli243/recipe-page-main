@@ -87,13 +87,21 @@ img {
 
 ul,
 ol {
-    list-style-position: inside;
+    list-style-position: outside;
     font-family: "Outfit", sans serif;
     color: hsl(332, 51%, 32%);
+    margin-left: 20px;
 
     li {
         margin-bottom: 10px;
+
+        p,
+        span {
+            margin-left: 10px;
+        }
     }
+
+
 
 }
 
@@ -101,6 +109,11 @@ ol {
 
 .table-box {
     width: 100%;
+
+    table {
+        width: 100%;
+
+    }
 
     td {
         padding: 10px 0;
@@ -138,12 +151,21 @@ hr {
         justify-content: center;
         align-items: center;
 
+        div.padding {
+            padding: 0;
+        }
     }
 
     .card {
-        padding: 20px;
+        padding: 40px;
         border-radius: 20px;
         margin-bottom: 50px;
+
+        #ingredients,
+        #instructions,
+        #nutrition-value {
+            padding: 0;
+        }
     }
 }
 
